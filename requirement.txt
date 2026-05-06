@@ -1,0 +1,4 @@
+asgiref ==3.x.x
+Django==5.x.x
+gunicorn==21.x.x
+sqlparse ==0.x.x
