@@ -1,20 +1,19 @@
 from django.http import HttpResponse
 from django.urls import path
 
-
 def home(request):
-    return HttpResponse("""<html>
-            <head><title>Document</title></head>
-            <body>
-                <h1><title>Azure Django Lab</title></h1> 
-                <p>Hello from azure!</p>
-                <p>This Django app is running on Azure app Service.</p>
-                <p>Deployed automatically via github actions CI/CD pipeline.</p>
-                <p><strong>pipeline is working!</strong></p>
-                <h1>Hello World!</h1>
-            </body>
-            </html>
-""")
+    return HttpResponse("""
+        <html>
+        <head><title>Azure Django Lab</title></head>
+        <body style="font-family: Arial; padding: 40px;">
+            <h1 style="color: #0066cc;">Version 2 - Updated Automatically!</h1>
+
+            <p>This change was deployed with zero manual server work.</p>
+
+            <p>The CI/CD pipeline handled everything.</p>
+        </body>
+        </html>
+    """)
 
 urlpatterns = [
     path('', home),
