@@ -1,4 +1,4 @@
-asgiref ==3.x.x
+asgiref ==3.7.2
 Django==5.x.x
 gunicorn==21.x.x
 sqlparse ==0.x.x
