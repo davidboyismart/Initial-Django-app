@@ -11,6 +11,7 @@ def home(request):
                 <p>This Django app is running on Azure app Service.</p>
                 <p>Deployed automatically via github actions CI/CD pipeline.</p>
                 <p><strong>pipeline is working!</strong></p>
+                <h1>Hello World!</h1>
             </body>
             </html>
 """)
